@@ -12,8 +12,7 @@ st.markdown("""
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     .stAppDeployDropdown {display: none !important;}
-    .stAppToolbar {display: none !important;}
-
+    .stAppOwnerChannel {display: none !important;}
     .producto-fila {
         display: flex;
         align-items: center;
