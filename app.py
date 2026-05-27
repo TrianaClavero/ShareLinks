@@ -9,9 +9,9 @@ st.set_page_config(page_title="Mis Ofertas y Códigos", page_icon="🛍️", lay
 st.markdown("""
     <style>
     /* --- CONFIGURACIÓN DE PRIVACIDAD / OCULTAR INTERFAZ --- */
-    #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     .stAppDeployDropdown {display: none !important;}
+    .stAppToolbar {display: none !important;}
     .stAppOwnerChannel {display: none !important;}
     .producto-fila {
         display: flex;
