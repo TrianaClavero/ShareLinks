@@ -14,11 +14,9 @@ st.markdown("""
     .stAppDeployDropdown {display: none !important;}
     .stAppToolbar {display: none !important;}
 
-    [data-testid="stAppDeployDropdown"] {display: none !important;}
-    [data-testid="stConnectionStatusContainer"] {display: none !important;}
-    iframe[title="Managed Session"] {display: none !important;}
-    .st-emotion-cache-zt5gwb {display: none !important;} 
-    button[data-testid="baseButton-element"] {visibility: hidden !important;}
+    div[data-testid="stToolbar"] {display: none !important;}
+    div[class*="stAppDeployDropdown"] {display: none !important;}
+    .stAppDeployDropdown {display: none !important;}
     .producto-fila {
         display: flex;
         align-items: center;
