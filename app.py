@@ -8,6 +8,12 @@ st.set_page_config(page_title="Mis Ofertas y Códigos", page_icon="🛍️", lay
 # Estilos CSS avanzados para el diseño móvil horizontal
 st.markdown("""
     <style>
+    /* --- CONFIGURACIÓN DE PRIVACIDAD / OCULTAR INTERFAZ --- */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    .stAppDeployDropdown {display: none !important;}
+    .stAppToolbar {display: none !important;}
+
     .producto-fila {
         display: flex;
         align-items: center;
