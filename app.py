@@ -93,7 +93,7 @@ def obtener_ruta_imagen(nombre_imagen):
 try:
     # Conexión con Google Sheets
     conexion = st.connection("gsheets", type=GSheetsConnection)
-    df = conexion.read()
+    df = conexion.read(ttl=43200)
     
     # Limpieza de nombres de columnas para evitar conflictos de mayúsculas/minúsculas o espacios
     df.columns = df.columns.str.strip().str.lower()
